@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+#header {
+    font-family: 'Dancing Script', cursive;
+
+    .navbar-brand {
+        font-size: 2rem;
+    }
+}
+
+.section {
+    text-align: center;
+    margin: 1rem 0;
+    padding: 1.5rem 0;
+
+    &__heading {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    &__subheading {
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+    }
+
+    &__content {
+        font-size: 1rem;
+        line-height: 1.6;
+        letter-spacing: 1.5px;
+    }
+}
+
+#result {
+    font-size: 2rem;
+    text-align: center;
+}
